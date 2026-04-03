@@ -2,6 +2,10 @@
 
 A minimalist blockchain written in Zig with longest chain consensus, RandomX mining, and peer-to-peer networking.
 
+# ZeiCoin wallet
+
+Zeicoin now have own gui wallet - ocelot wallet: https://github.com/zeicoin/ocelot-wallet/releases/tag/v0.1.0
+
 ## Overview
 
 ZeiCoin is a blockchain implemented from scratch in Zig, a modern systems programming language with explicit error handling, no hidden control flow, and compile-time memory safety. The core implementation totals approximately 20,000 lines of code.
