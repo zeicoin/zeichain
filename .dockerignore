@@ -1,0 +1,52 @@
+# Build artifacts
+zig-out/
+zig-cache/
+.zig-cache/
+
+# Data directories
+zeicoin_data/
+zeicoin_data_testnet/
+zeicoin_data_mainnet/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+docs/
+reference/
+
+# Environment files
+.env
+.env.*
+
+# Docker files
+docker-compose.yml
+.dockerignore
+
+# Config files (prevent connecting to live bootstrap nodes)
+config/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Local project tooling and trackers not needed for the libp2p test image
+.izumi/
