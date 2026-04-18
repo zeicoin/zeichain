@@ -1,10 +1,17 @@
 # ⚡ ZeiCoin ⚡
+First cryptocurrency on ZIG language
 
-A minimalist blockchain written in Zig with longest chain consensus, RandomX mining, and peer-to-peer networking.
+ZeiCoin mainnet is live.
+The Genesis block was mined today (04/18/2026)
+
+A minimalist blockchain with longest chain consensus, RandomX mining, and peer-to-peer networking.
+
+# ZeiCoin miner
+Miner with 0% dev fee and support ZeiCoin - https://github.com/zeicoin/zeicoin-miner
 
 # ZeiCoin wallet
 
-Zeicoin now have own gui wallet - ocelot wallet: https://github.com/zeicoin/ocelot-wallet/releases/tag/v0.1.0
+Zeicoin now have own gui wallet - ocelot wallet: https://github.com/zeicoin/ocelot-wallet/releases/tag/v0.1.1a
 
 ## Overview
 
