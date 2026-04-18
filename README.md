@@ -2,8 +2,9 @@
 
 A minimalist blockchain written in Zig with longest chain consensus, RandomX mining, and peer-to-peer networking.
 
-> [!WARNING]
-> ZeiCoin is under active development for educational and research purposes. The software is in **TestNet phase** and breaking changes may occur between releases. Do not use for real value transfers.
+# ZeiCoin wallet
+
+Zeicoin now have own gui wallet - ocelot wallet: https://github.com/zeicoin/ocelot-wallet/releases/tag/v0.1.0
 
 ## Overview
 
@@ -15,11 +16,6 @@ Key features include an account-based transaction model, concurrent blockchain a
 - **Educational**: Learning blockchain development and consensus algorithms
 - **Research**: Experimenting with blockchain protocols and network behavior
 - **Development**: Testing multi-node synchronization and P2P networking
-
-### Not Production Ready
-
-> [!CAUTION]
-> **TestNet Only!** This blockchain is currently in testnet phase and not ready for production use.
 
 ### Key Features
 
@@ -49,7 +45,7 @@ Key features include an account-based transaction model, concurrent blockchain a
 
 ```bash
 # Clone the repository
-git clone https://github.com/ryo-zen/zeicoin.git
+git clone https://github.com/zeicoin/zeichain.git
 cd zeicoin
 
 # Configure environment
@@ -192,17 +188,6 @@ ZeiCoin includes an optional Layer 2 messaging layer that adds rich metadata to 
 3. Send actual ZEI transaction on blockchain
 4. Indexer automatically confirms L2 message with tx_hash
 
-## Testnet Faucet (TestNet)
-
-> [!NOTE]
-> The faucet is an optional testnet service for distributing test ZEI. It is not part of the core node.
-
-The testnet faucet distributes small amounts of ZEI to new addresses with rate limiting and signed payouts to prevent abuse.
-
-- **Rate Limiting**: One payout per address per time window
-- **Signed Payouts**: All faucet transactions are cryptographically signed
-- **REST API**: Simple endpoint to request testnet ZEI
-
 ## Analytics & Data Infrastructure (Optional)
 
 > [!IMPORTANT]
@@ -278,8 +263,6 @@ ZEICOIN_DATA_DIR=zeicoin_data               # Data directory
 # Wallet Security
 ZEICOIN_WALLET_PASSWORD=***                 # Optional: for automation only
 ```
-
-## Testnet Deployment
 
 ### Systemd Services
 
@@ -411,7 +394,3 @@ Contributions to ZeiCoin are welcome.
 ## License
 
 MIT License - See [LICENSE](LICENSE) file for details.
-
----
-
-**ZeiCoin v0.0.1-testnet** (pronounced ZEE-koyn; IPA: /ziː kɔɪn/)
